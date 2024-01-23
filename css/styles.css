@@ -116,7 +116,7 @@
 
 .btn:hover,
 .btn:focus {
-    background-color: var(--color-secondary-brown);
+    background-color: var(--color-bright);
     color: var(--color-white);
 }
 
@@ -161,7 +161,7 @@
 .card:focus {
     transform: translateY(-0.55rem);
     box-shadow: var(--shadow--large);
-    color: var(--color-pink);
+    color: var(--color-black);
 }
 
 .image-content__image img {
@@ -216,7 +216,7 @@ h2 {
 
 .btn_adventure:hover,
 .btn_adventure:focus {
-    background-color: var(--color-pink);
+    background-color: var(--color-bright);
     border: 0.125rem solid var(--color-pink);
     color: #000;
 }
