@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two page site</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+    <header class="">
+        <div class="navbar">
+            <div class="container">
+                <a href="./index.html" class="nav__logo">
+                    <img src="./imageS/Free_Sample_By_Wix-removebg-preview.png" alt="adventure logo" class="nav__icon">
+                </a>
+                <nav>
+                    <ul class="nav__list">
+                        <li><a href="#" class="nav__link">About us</a></li>
+                        <li><a href="./blog-post.html" class="nav__link">Blog</a></li>
+                        <li><a href="#" class="nav__link">Contact</a></li>
+                        <li><a href="#" class="nav__link">Services</a></li>
+                        <!-- <li><a href="#" class="nav__link">Sign In</a></li> -->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+                <section>
+            <div class="container">
+                    <form action="/thank-you-html" class="contact-us__form">
+                        <div class="form-unit full">
+                            <h1 class="contact-us__title"> Contact Us</h1>
+                        </div>
+
+                        <div class="contact-us">
+                            <div class="form-unit full">
+                                <label for="fName"> Full Name*</label>
+                                <input type="text" id="fName" name="fName" required>
+                            </div>
+            
+                            <div class="form-unit">
+                                <label for="email"> Email*</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+            
+                            <div class="form-unit">
+                                <label for="tel"> Phone*</label>
+                                <input type="tel" id="tel" name="tel" required>
+                            </div>
+
+
+                            <div class="form-unit full">
+                                <p class="label full">Preferred contact method:</p>
+                                <div class="radio-grid">
+                                    <div class="radio-grid__unit">
+                                        <input type="radio" name="contact-method" id="email_" />
+                                        <label for="email_">Email</label>
+                                    </div>
+                                    <div class="radio-grid__unit">
+                                        <input type="radio" name="contact-method" id="phone" />
+                                        <label for="phone">Phone</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-unit full">
+                                <label for="subject">Subject*</label>
+                                <select id="subject" name="subject" required>
+                                    <option value=""></option>
+                                    <option value="sales">Sales</option>
+                                    <option value="pricing">Pricing</option>
+                                    <option value="support">Support</option>
+                                    <option value="careers">Careers</option>
+                                </select>
+                            </div>
+
+                            <div class="form-unit full">
+                                <label for="message">Message*</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+
+                            <div class="form-unit full checkbox-wrap">
+                                <input type="checkbox" id="consent" name="consent" required/>
+                                <label for="consent">
+                                    I consent to the <a href="#">Terms and Services</a>.
+                                </label>
+                            </div>
+            
+                            <div class="form-unit full">
+                                <input class="btn" type="submit" value="Submit">
+                            </div>
+                        </div>
+                    </form>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="footer">
+            <div class="container">
+                <a href="./index.html" class="footer__logo">
+                    <img src="./images/Free_Sample_By_Wix-removebg-preview.png" alt="adventure logo" class="nav__icon">
+                </a>
+        
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">About</a></li>
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                        <li><a href="#" class="footer__link">Contact</a></li>
+                        <li><a href="#" class="footer__link">Services</a></li>
+                    </ul>
+                </nav>
+        
+                <div class="footer_items">
+                    <small class="footer__copyright">
+                        &copy; 2022 KTO
+                    </small>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+    </footer>
+
+    <a href="#page" class="to-top">To Top</a>
+
+    <div class="click-to-close"></div>
+        
+    <script src="./js/main.js"></script>
+</body>
+</html>
